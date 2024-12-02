@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/favicon/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+    <title>TuBurguer</title>
+</head>
+<body class="grid__body__index">
+    <header class="grid__header m-0">
+        <nav class="grid__header__logos">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="menu__logo__header" src="../assets/images/LogoMenuHeader.png" alt="">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="texto__header text-dark m-3" href="../index.html">Home</a></li>
+                    <li><a class="texto__header text-dark m-3" href="./menu.html">Menu</a></li>
+                    <li><a class="texto__header text-dark m-3" href="./carrito.html">Carrito</a></li>
+                    <li><a class="texto__header text-dark m-3" href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="texto__header text-dark m-3" href="./saludables.html"><b>Saludables?</b></a></li>
+                </ul>
+            </div>
+            <div data-aos="fade-down" class="contenedor__logo__medio__header">
+                <img class="logo__medio__header" src="../assets/images/LogoMedioHeader.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main class="grid__main__saludables mb-0 pb-5">
+        <section class="main__section__saludables">
+            <h1 class="main__title__saludables">Te preocupa romper la dieta?</h1>
+            <p class="main__text__saludables">Relájate que nuestra casa de comidas cuenta con ingredientes de la mejor calidad, carne 100% vacuna, verduras frescas, nuestro pan de papa casero sin aditivos ni conservantes. También contamos con la opción de nuestra hamburguesa vegetariana para aquellos que no les va mucho la idea de comer carne.Nuestro menú dispone además de la posibilidad de poder elegir la variedad de hamburguesa que quieras con amplia  disponibilidad de verduras y productos frescos; y por ultimo el mejor acompañamiento que puede tener nuestras hammburguesas son papas con cascara, para mayor aporte de fibra y las podes elegir fritas o al horno.</p>
+        </section>
+        <section class="ayuda__saludables pb-4">
+            <h1><b>Necesitas ayuda?</b></h1>
+            <p>Lo mejor que podes hacer es HABLAR con tu entorno cercano y buscar asesoramiento especializado, aca te pasamos los datos de la <b>Red de Trastornos de la Conducta Alimentaria</b> de la Ciudad de Buenos Aires:</p>
+            <p>•Salud Mental Responde: 4863-8888 Lunes al viernes de 8 a 20 hs.</p>
+        </section>
+    </main>
+    <footer class="grid__footer__saludables mb-0">
+        <ul class="footer__saludables fixed-bottom mb-0">
+            <li>
+                <a href="./contactanos.html">Contactanos</a>
+            </li>
+        </ul>
+    </footer>
+    <script>
+        document.querySelector(".dropdown__header").addEventListener("click",function(){
+            document.querySelector(".dropdown__header ul").classList.toggle("show");
+        })
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
