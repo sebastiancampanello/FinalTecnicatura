@@ -62,7 +62,7 @@ body{
     .padre__home{
         background-color: rgba(122, 122, 122, 0.959);
         border-radius: 15px;
-        border: solid rgb(58, 58, 58);
+        border: solid white;
     }
     .tablero__main__index{
         font-size: larger;
@@ -165,7 +165,7 @@ body{
         background-color: rgb(141, 141, 141);
         border-radius: 15px;
         margin: 5%;
-        border:  solid rgb(63, 63, 63);
+        border:  solid white;
         margin-bottom: 80px;
     }
     .video__main__nosotros{
@@ -182,7 +182,7 @@ body{
     grid-template-columns: 50% 50%;
     background-color: rgb(141, 141, 141);
     border-radius: 15px;
-    border: solid rgb(63, 63, 63);
+    border: solid white;
     margin: 5%;
 }
     .titulo__grid__contacto{
@@ -228,7 +228,7 @@ body{
 .grid__main__saludables{
     background-color: rgb(141, 141, 141);
     border-radius: 15px;
-    border:  solid rgb(63, 63, 63);
+    border:  solid white;
     margin: 5%;
     padding: 3%;
 }
